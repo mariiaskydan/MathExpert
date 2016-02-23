@@ -53,6 +53,7 @@ class Draw2D: UIView {
         CGContextMoveToPoint(context, secondPointX.x, secondPointX.y)
         CGContextAddLineToPoint(context, secondPointXArrow.x, secondPointXArrow.y)
         // xy
+        
         CGContextStrokePath(context);
 
     }
